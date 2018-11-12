@@ -1,0 +1,50 @@
+https://translate.googleusercontent.com/translate_c?depth=1&hl=en&rurl=translate.google.com&sl=auto&sp=nmt4&tl=en&u=http://4pda.ru/forum/index.php%3Fshowtopic%3D907604%26st%3D2700&xid=17259,15700023,15700124,15700149,15700186,15700190,15700201&usg=ALkJrhhVhue5pkE7nu37W-ypOJ0F7xuI0A
+
+
+
+
+
+
+
+
+
+Who on the new firmware problems with the camera. It may help. Especially check the sound. 
+Before replacing copy stock just in case. 
+
+in the vendor / lid folder with 644 rights 
+ libmmcamera2_sensor_modules.zip (397.16 KB) 
+
+in the vendor / etc folder with 644 permissions 
+ media_codecs.xml (20.2 KB) 
+
+ media_profiles_V1_0.xml (20.07 KB) 
+
+
+
+For those who want to test more or less normal 60fps on custom . Works without stabilization . With stub big zoom . Perhaps only with the 265 codec, but maybe it will work on 264. Some files in archives, i.e. why it is not laid out. 
+
+in the vendor / lid folder with 644 rights 
+ libmmcamera2_sensor_modules.zip (397.16 KB) 
+
+ libchromatix_ov13855_holitech_13m_hfr_60_bu64297.zip (15.38 KB) 
+
+ libmmcamera_ov13855_holitech_13m.zip (12.89 KB) 
+
+
+in the vendor / etc folder with 644 permissions 
+ media_codecs.xml (20.2 KB) 
+
+ media_profiles_V1_0.xml (20.07 KB) 
+
+
+in the vendor / etc / camera folder with 644 rights 
+ ov13855_holitech_13m_chromatix.xml (7.92 KB) 
+
+
+in vendor / build.pro 
+add line 
+persist.camera.max.previewfps = 60 
+
+ps write down who changes how things are going to decide whether it is necessary at all or not) 
+mediainfo data 
+on the street 
